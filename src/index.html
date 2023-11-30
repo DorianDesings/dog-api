@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Vite App</title>
+	</head>
+	<body>
+		<main>
+			<div class="select-field">
+				<label for="breeds-select">Raza</label>
+				<select name="breeds-select" id="breeds-select">
+					<option value="default">Selcciona una raza</option>
+				</select>
+			</div>
+			<div class="select-field hide">
+				<label for="sub-breeds-select">Sub Raza</label>
+				<select name="sub-breeds-select" id="sub-breeds-select"></select>
+			</div>
+			<button id="button-image">Get Image</button>
+			<img id="dog-image" src="" alt="" />
+		</main>
+		<script type="module" src="./js/index.js"></script>
+	</body>
+</html>
