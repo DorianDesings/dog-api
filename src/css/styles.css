@@ -22,21 +22,9 @@ a {
 }
 
 body {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	min-height: 100vh;
 	margin: 0;
 	background-color: #202733;
 	color: #cee3e9;
 	font-family: 'Manrope', sans-serif;
-}
-
-.select-field {
-	display: flex;
-	flex-direction: column;
-}
-
-.hide {
-	display: none;
 }
